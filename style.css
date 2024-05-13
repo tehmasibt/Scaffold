@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    padding: 20px 100px;
+    background: #ffffff;
+}
+
+header nav .loqo .header-1 {
+    font-size: 28px;
+}
+
+header nav .loqo .header-1 .head-a {
+    color: #576971;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+header nav  .nav-links .nav-ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    gap: 20px;
+    font-size: 16px;
+}
+
+header nav  .nav-links .nav-ul .home:hover {
+    color: skyblue;
+}
+
+header nav  .nav-links .nav-ul .liabout:hover {
+    color: skyblue;
+}
+
+header nav  .nav-links .nav-ul .ateam:hover {
+    color: skyblue;
+}
+
+header nav  .nav-links .nav-ul .atest:hover {
+    color: skyblue;
+}
+
+header nav  .nav-links .nav-ul details summary {
+    list-style: none;
+}
+
+header nav  .nav-links .nav-ul .sumabout:hover {
+    color: skyblue;
+}
+
+header nav  .nav-links .nav-ul .sumdeep:hover {
+    color: skyblue;
+}
+
+header nav  .nav-links .nav-ul .a1d:hover {
+    color: skyblue;
+}
+
+header nav  .nav-links .nav-ul .a2d:hover {
+    color: skyblue;
+}
+
+header nav  .nav-links .nav-ul .a3d:hover {
+    color: skyblue;
+}
+
+header nav  .nav-links .nav-ul .a4d:hover {
+    color: skyblue;
+}
+
+header nav  .nav-links .nav-ul .a5d:hover {
+    color: skyblue;
+}
+
+header nav  .nav-links .nav-ul .a1:hover {
+    color: skyblue;
+}
+
+header nav  .nav-links .nav-ul .a2:hover {
+    color: skyblue;
+}
+
+header nav  .nav-links .nav-ul .a3:hover {
+    color: skyblue;
+}
+
+header nav  .nav-links .nav-ul .a4:hover {
+    color: skyblue;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header nav .nav-links {
+    position: relative;
+    right: -250px;
+    font-family: "Open Sans", sans-serif;
+}
+
+header nav .social-pages .divul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    gap: 10px;
+}
+
+header nav .social-pages .divul .twitter {
+    color: #576971;
+    font-size: 25px;
+}
+  
+header nav .social-pages .divul .twitter:hover {
+    color: #1DA1F2;
+}
+
+header nav .social-pages .divul .facebook {
+    color: #576971;
+    font-size: 25px;
+}
+
+header nav .social-pages .divul .facebook:hover {
+    color: #1877F2;
+}
+
+
+header nav .social-pages .divul .instagram {
+    color: #576971;
+    font-size: 25px;
+}
+
+header nav .social-pages .divul .instagram:hover {
+    color: #d784e8;
+}
+
+header nav .social-pages .divul .linkedin {
+    color: #576971;
+    font-size: 25px;
+}
+
+header nav .social-pages .divul .linkedin:hover {
+    color: #0077b5;
+}
+
+#hero {
+    display: flex;
+    background: url("./Pictures/hero-bg\ \(1\).png") no-repeat;
+    background-position: right;
+    background-size: 700px 700px;
+}
+
+#hero .hero-content {
+    position: relative;
+    height: 250px;
+    width: 640px;
+    top: 270px;
+    left: 100px;
+}
+
+#hero .hero-image {
+    position: relative;
+    background-image: url('arka_plan_resmi.jpg');
+    background-size: 700px 700px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -230px;
+    top: -100px;
+}
+
+#hero .hero-content .bighead {
+    font-family: "Open Sans", sans-serif;
+    margin: -90px 0 20px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #364146
+}
+
+#hero .hero-content .hero-paragraph {
+    color: #576971;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+}
+
+#hero .hero-content .hero-link .btn {
+    position: relative;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    background: #009CEA;
+    border: none;
+    border-radius: 8px;
+    width: 150px;
+    height: 40px;
+}
+
+#hero .hero-content .hero-link .btn a {
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+body {
+    overflow-y: scroll;
+    height: 5000px;
+}
+
+#about {
+    display: flex;
+    gap: 40px;
+    width: 1350px;
+    margin: 70px -20px;
+    height: 450px;
+    position: relative;
+    left: 90px;
+    background-color: #f7f8f9;
+}
+
+#about .about-info {
+    width: 510px;
+    position: relative;
+    right: -130px;
+    top: 40px;
+}
+
+#about .about-image {
+    position: relative;
+    left: 125px;
+    top: 45px;
+}
+
+#about .about-info .about-title h1 {
+    font-size: 35px;
+    font-family: "Open Sans", sans-serif;
+    color: #364146;
+    font-weight: 500;
+
+}
+
+#about .about-info .about-italic {
+    height: 65px;
+    position: relative;
+    top: 10px;
+}
+
+#about .about-info .about-italic i {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+#about .about-info .about-subtitle {
+    position: relative;
+    top: 10px;
+}
+
+#about .about-info .about-subtitle ul li {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+#about .about-info .about-subtitle ul li p i {
+    color: green;
+    font-size: 22px;
+}
+
+#about .about-info .about-subtitle ul .l2 {
+    position: relative;
+    top: 13px;
+}
+
+#about .about-info .about-subtitle ul .l3 {
+    position: relative;
+    top: 23px;
+}
+
+#about .about-info p{
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+
+#about .about-info .about-paragraph {
+    position: relative;
+    bottom: -50px;
+}
+
+main .features {
+    box-sizing: border-box;
+    padding: 60px 0;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features .features-content {
+    position: relative;
+    width: 520px;
+    height: 450px;
+    top: 25px;
+    left: 130px;
+    font-family: "Open Sans", sans-serif;
+}
+
+main .features .features-image {
+    position: relative;
+    right: 85px;
+    top: 10px;
+}
+
+.features .features-content .text-1 {
+    position: relative;
+    width: 480px;
+    height: 110px;
+}
+
+.features .features-content .text-1 h3 {
+    position: relative;
+    color: #576971;
+    left: 15px;
+    top: 15px;
+}
+
+.features .features-content .text-1 a {
+    position: relative;
+    color: #576971;
+    left: 15px;
+    top: 15px;
+}
+
+.features .features-content .text-2 {
+    position: relative;
+    width: 480px;
+    height: 110px;
+    top: 2px;
+}
+
+.features .features-content .text-2 h3 {
+    position: relative;
+    color: #576971;
+    left: 15px;
+    top: 15px;
+}
+
+.features .features-content .text-2 a {
+    position: relative;
+    color: #576971;
+    left: 15px;
+    top: 15px;
+}
+
+.features .features-content .text-3 {
+    position: relative;
+    width: 480px;
+    height: 110px;
+    top: 4px;
+}
+
+.features .features-content .text-3 h3 {
+    position: relative;
+    color: #576971;
+    left: 15px;
+    top: 15px;
+}
+
+.features .features-content .text-3 a {
+    position: relative;
+    color: #576971;
+    left: 15px;
+    top: 15px;
+}
+
+.features .features-content .text-4 {
+    position: relative;
+    width: 480px;
+    height: 110px;
+    top: 6px;
+}
+
+.features .features-content .text-4 h3 {
+    position: relative;
+    color: #576971;
+    left: 15px;
+    top: 15px;
+}
+
+.features .features-content .text-4 a {
+    position: relative;
+    color: #576971;
+    left: 15px;
+    top: 15px;
+}
+
+.features .features-content .text-1 {
+    border-left: 4px solid #f7f8f9;
+    transition: border-color 1s, background-color 0.3s; 
+}
+
+.features .features-content .text-1:hover {
+    border-left-color: skyblue; 
+    background-color: #f7f8f9;
+}
+
+.features .features-content .text-2 {
+    border-left: 4px solid #f7f8f9; 
+    transition: border-color 1s, background-color 0.3s; 
+}
+
+.features .features-content .text-2:hover {
+    border-left-color: skyblue; 
+    background-color: #f7f8f9;
+}
+
+.features .features-content .text-3 {
+    border-left: 4px solid #f7f8f9; 
+    transition: border-color 1s, background-color 0.3s; 
+}
+
+.features .features-content .text-3:hover {
+    border-left-color: skyblue;
+    background-color: #f7f8f9;
+}
+
+.features .features-content .text-4 {
+    border-left: 4px solid #f7f8f9; 
+    transition: border-color 1s, background-color 0.3s; 
+}
+
+.features .features-content .text-4:hover {
+    border-left-color: skyblue; 
+    background-color: #f7f8f9;
+}
+
+
+
+
+
+
